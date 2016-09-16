@@ -1,7 +1,8 @@
 ISSUE TEMPLATED
 
-Expected behavior and actual behavior.
 
-Steps to reproduce the problem.
 
-Specifications like the version of the project, operating system, or hardware.
+Question to Consider
+1. Expected behavior and actual behavior.
+2. Steps to reproduce the problem.
+3. Specifications like the version of the project, operating system, or hardware.
