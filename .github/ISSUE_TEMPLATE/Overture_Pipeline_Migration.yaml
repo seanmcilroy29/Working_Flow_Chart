@@ -4,9 +4,7 @@ title: "[Pipeline Migration]"
 labels: ["Pipeline Migration"]
 projects: ["Overture Pipeline Migration"]
 assignees: 
-  - ericgodwin
-  - jwass
-  - dkensok
+  - seanmcilroy29
 body:
   - type: textarea
     id: Pipeline-Migration
