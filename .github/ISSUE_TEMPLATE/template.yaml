@@ -1,0 +1,32 @@
+name: Pipeline Migration
+description: Pipeline Migration
+title: "[Pipeline Migration]"
+labels: ["Pipeline Migration"]
+projects: ["Overture Pipeline Migration"]
+assignees: 
+  - seanmcilroy29
+body:
+  - type: textarea
+    id: Pipeline-Migration
+    attributes:
+      label: Pipeline Migration
+      description: Outline Pipeline Migration Details
+      placeholder: Tell us what you see
+      value: "Add details" 
+    validations:
+      required: true
+- type: dropdown
+  id: severity
+  attributes:
+    label: Severity impact
+    description: Please choose the severity of the impact of this issue.
+    multiple: false
+    options:
+      - 'None'
+      - 'Low'
+      - 'Medium'
+      - 'High'
+      - 'Urgent'
+      - 'Other'
+  validations:
+    required: true
