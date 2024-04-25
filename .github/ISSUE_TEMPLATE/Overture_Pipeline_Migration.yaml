@@ -1,0 +1,38 @@
+name: Pipeline Migration
+description: Pipeline Migration
+title: "[Pipeline Migration]"
+labels: ["Pipeline Migration"]
+projects: ["Overture Pipeline Migration"]
+assignees: 
+  - ericgodwin
+  - jwass
+  - dkensok
+body:
+  - type: textarea
+    id: Pipeline-Migration
+    attributes:
+      label: Pipeline Migration
+      description: Outline Pipeline Migration Details
+      placeholder: Tell us what you see
+      value: "Add details" 
+    validations:
+      required: true
+  - type: dropdown
+    id: Phase-of-development
+    attributes:
+      label: Phase of development
+      multiple: false
+      options:
+        - 'Phase-1'
+        - 'Phase-2'
+        - 'Phase-3'
+        - 'Unknown'
+    validations:
+      required: true
+  - type: checkboxes
+    id: Platform-work-question
+    attributes:
+      label: Platform work
+      description: "Is this platform work that could be shared across multiple themes??"
+      options:
+        - label: Check box if YES
